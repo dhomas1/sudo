@@ -1,9 +1,9 @@
 ### SUDO ###
 _build_sudo() {
-local VERSION="1.8.11p2"
+local VERSION="1.9.14p3"
 local FOLDER="sudo-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
-local URL="http://www.gratisoft.us/sudo/dist/${FILE}"
+local URL="https://www.sudo.ws/sudo/dist/${FILE}"
 
 _download_tgz "${FILE}" "${URL}" "${FOLDER}"
 pushd "target/${FOLDER}"
