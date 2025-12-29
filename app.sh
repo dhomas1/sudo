@@ -4,7 +4,6 @@ local VERSION="1.9.17p2"
 local FOLDER="sudo-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="https://www.sudo.ws/sudo/dist/${FILE}"
-local tmpfilesdir="${DEST}/etc/tmpfiles.d"
 
 _download_tgz "${FILE}" "${URL}" "${FOLDER}"
 pushd "target/${FOLDER}"
