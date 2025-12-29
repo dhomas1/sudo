@@ -1,6 +1,6 @@
 ### SUDO ###
 _build_sudo() {
-local VERSION="1.9.14p3"
+local VERSION="1.9.17p2"
 local FOLDER="sudo-${VERSION}"
 local FILE="${FOLDER}.tar.gz"
 local URL="https://www.sudo.ws/sudo/dist/${FILE}"
