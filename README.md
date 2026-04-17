@@ -27,7 +27,7 @@ Each invocation creates a log file with all the generated output.
 
 ## Sources
 
-* sudo: http://www.gratisoft.us/sudo/
+* sudo: [http://www.gratisoft.us/sudo/](https://www.sudo.ws/sudo)
 
 ## Help support the apps
 
